@@ -22,6 +22,8 @@ jobs:
       - name: Upload APK TestApp.io
         uses: testappio/github-action@v5
         with:
+          api_token: ${{secrets.TESTAPPIO_API_TOKEN}}
+          app_id: ${{secrets.TESTAPPIO_APP_ID}}
           file: app/build/outputs/apk/debug/app-debug.apk
           release_notes: ""
           git_release_notes: true
