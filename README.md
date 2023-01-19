@@ -4,5 +4,4 @@
 
 Sample project demonstrates how to upload Android (APK) to TestApp.io for testing and feedback.
 
-
 Check https://help.testapp.io/topic/integrations/ for info
