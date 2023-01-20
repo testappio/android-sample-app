@@ -1,7 +1,13 @@
 [![CircleCI](https://circleci.com/gh/Jianbo-Zhu/testapp-android-sample/tree/main.svg?style=svg)](https://circleci.com/gh/Jianbo-Zhu/testapp-android-sample/tree/main)
 
-# TestApp.io Sample Android App
+# TestApp.io sample Android app
 
-Sample project demonstrates how to upload Android (APK) to TestApp.io for testing and feedback.
 
-Check https://help.testapp.io/topic/integrations/ for info
+#### This repo includes the following examples:
+
+- [GitHub Actions](.github/workflows)
+- [Circle CI](.circleci/)
+
+---
+
+Visit TestApp.io [Help Center](https://help.testapp.io) for more information
