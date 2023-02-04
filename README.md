@@ -10,4 +10,4 @@
 
 ---
 
-Visit TestApp.io [Help Center](https://help.testapp.io) for more information
+Visit TestApp.io [Help Center](https://help.testapp.io) for more information.
