@@ -1,0 +1,11 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-22.04
+
+steps:
+- script: |
+    bundle install
+    bundle exec fastlane android beta
+  displayName: 'Execute the lane'
