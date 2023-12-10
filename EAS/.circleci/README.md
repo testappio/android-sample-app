@@ -2,7 +2,7 @@
 
 In order to automatically trigger the CircleCI pipeline, we need to connect our CircleCI project to our repository.
 
-When creating a new CircleCI project, you will have the option to connect a specific repository to the CircleCI project. After the 2 are linked, we just need to create the secrets/environment variables for the CircleCI project.
+When creating a new CircleCI project, you will have the option to connect a specific repository to the CircleCI project. After the two are linked, we just need to create the secrets/environment variables for the CircleCI project.
 
 For more information about creating a CircleCI project, see [this](https://circleci.com/docs/create-project/).
 
