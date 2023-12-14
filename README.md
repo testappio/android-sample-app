@@ -8,7 +8,8 @@
 - [GitHub Actions with Fastlane](https://github.com/testappio/android-sample-app/tree/integration-github-fastlane/.github/workflows)
 - [Circle CI](.circleci/)
 - [Bitrise CI](bitrise.yml)
-- [CodeMagic CI](<[bitrise.yml](https://github.com/testappio/android-sample-app/blob/integration-codemagic/codemagic.yaml)>)
+- [Codemagic CI/CD](https://github.com/testappio/android-sample-app/blob/main/codemagic.yaml)
+- [Codemagic CI/CD (Fastlane)](https://github.com/testappio/android-sample-app/blob/main/codemagic_fastlane.yaml)
 - [EAS](eas/)
 
 ---
