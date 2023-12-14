@@ -9,9 +9,9 @@
 - [GitHub Actions with Fastlane](https://github.com/testappio/android-sample-app/tree/integration-github-fastlane/.github/workflows)
 - [Circle CI](.circleci/)
 - [Bitrise CI](bitrise.yml)
-- Codemagic
-  - With fastlane [codemagic.yml](https://github.com/testappio/android-sample-app/blob/main/codemagic_fastlane.yaml)
-  - Without fastlane [codemagic.yml](https://github.com/testappio/android-sample-app/blob/main/codemagic.yaml)
+- [Codemagic CI/CD](https://github.com/testappio/android-sample-app/blob/main/codemagic.yaml)
+- [Codemagic CI/CD (Fastlane)](https://github.com/testappio/android-sample-app/blob/main/codemagic_fastlane.yaml)
+
 ---
 
 Visit TestApp.io [Help Center](https://help.testapp.io) for more information.
