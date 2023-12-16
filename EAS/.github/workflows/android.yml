@@ -1,4 +1,4 @@
-name: Android Staging Build (AdHoc)
+name: Upload APK to TestApp.io
 on:
   workflow_dispatch:
 
@@ -29,13 +29,13 @@ jobs:
         env:
           SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
 
-      - name: 🌐 Upload APK to testapp.io
+      - name: 🌐 Upload APK to TestApp.io
         uses: testappio/github-action@v5
         with:
           api_token: ${{secrets.TESTAPPIO_API_TOKEN}}
           app_id: ${{secrets.TESTAPPIO_APP_ID}}
-          file: apk/android-staging-build.apk
-          release_notes: 'Testing manual release notes...'
+          file: ./apk/android-staging-build.apk
+          release_notes: ""
           git_release_notes: true
-          include_git_commit_id: false
+          include_git_commit_id: true
           notify: true
