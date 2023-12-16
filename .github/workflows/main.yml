@@ -1,8 +1,5 @@
-name: Workflow to upload APK to TestApp.io
+name: Upload APK to TestApp.io
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
 
 jobs:
@@ -28,5 +25,5 @@ jobs:
           file: app/build/outputs/apk/debug/app-debug.apk
           release_notes: ""
           git_release_notes: true
-          include_git_commit_id: false
-          notify: false
+          include_git_commit_id: true
+          notify: true
